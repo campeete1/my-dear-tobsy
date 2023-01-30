@@ -23,7 +23,7 @@
   p::before {
     background: var(--bg-color);
     animation: typewriter var(--typewriterSpeed)
-      steps(var(--typewriterCharacters)) 5s forwards;
+      steps(var(--typewriterCharacters)) 2s forwards;
   }
   
 
@@ -31,7 +31,7 @@
     width: 0.125em;
     background: black;
     animation: typewriter var(--typewriterSpeed)
-        steps(var(--typewriterCharacters)) 5s forwards,
+        steps(var(--typewriterCharacters)) 2s forwards,
       blink 750ms steps(var(--typewriterCharacters)) infinite;
   }
   .arrow-btn {
@@ -40,7 +40,7 @@
     font-weight: 400;
     opacity: 0;
     transform: translateY(3rem);
-    animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 5s) forwards;
+    animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 2s) forwards;
   }
   
   @keyframes typewriter {
